@@ -1,0 +1,19 @@
+# Render 部署配置（backend 文件夹）
+# 在 Render 创建 Web Service 时选择 "从仓库部署"，Render 会自动读这个文件
+services:
+  - type: web
+    name: olh-backend
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 3000
+      # 下面这些在 Render 的 Environment 面板里手动填：
+      # SUPABASE_URL
+      # SUPABASE_KEY
+      # VAPID_PUBLIC_KEY
+      # VAPID_PRIVATE_KEY
+      # VAPID_CONTACT
