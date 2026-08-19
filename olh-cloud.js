@@ -3,8 +3,8 @@
 (function () {
   'use strict';
   const OLH_API_KEY = 'olh_api';
-  // ★ 部署后把【部署时替换成VAPID公钥】换成后端生成的VAPID公钥（README有步骤）
-  const VAPID_PUBLIC_KEY = '【部署时替换成VAPID公钥】';
+  const VAPID_PUBLIC_KEY = 'BHaQ7lwikVSe_sNormvDX2yvY2W2RItHmAzVfama0e5-rVTmNteVZ5f7HE2EmwpnE5ZYrHhfBdBYEjbze7F8L14';
+  const DEFAULT_API = 'https://ourlittlehome2.onrender.com';
   // ★ 部署后把这里改成后端地址，例如 https://olh-backend.onrender.com（也可以在手机浏览器控制台输入 olhCloud.setApiUrl('...') 覆盖）
   const DEFAULT_API = '';
   const CHANNEL = 'main';
