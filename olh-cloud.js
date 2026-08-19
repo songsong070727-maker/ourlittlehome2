@@ -5,8 +5,6 @@
   const OLH_API_KEY = 'olh_api';
   const VAPID_PUBLIC_KEY = 'BHaQ7lwikVSe_sNormvDX2yvY2W2RItHmAzVfama0e5-rVTmNteVZ5f7HE2EmwpnE5ZYrHhfBdBYEjbze7F8L14';
   const DEFAULT_API = 'https://ourlittlehome2.onrender.com';
-  const DEFAULT_API = 'https://ourlittlehome2.onrender.com';
-const DEFAULT_API
   const CHANNEL = 'main';
 
   function getApiUrl() {
