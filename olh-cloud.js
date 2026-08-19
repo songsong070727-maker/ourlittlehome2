@@ -6,7 +6,7 @@
   const VAPID_PUBLIC_KEY = 'BHaQ7lwikVSe_sNormvDX2yvY2W2RItHmAzVfama0e5-rVTmNteVZ5f7HE2EmwpnE5ZYrHhfBdBYEjbze7F8L14';
   const DEFAULT_API = 'https://ourlittlehome2.onrender.com';
   // ★ 部署后把这里改成后端地址，例如 https://olh-backend.onrender.com（也可以在手机浏览器控制台输入 olhCloud.setApiUrl('...') 覆盖）
-  const DEFAULT_API = '';
+const DEFAULT_API = 'https://ourlittlehome2.onrender.com';
   const CHANNEL = 'main';
 
   function getApiUrl() {
