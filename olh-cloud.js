@@ -3,7 +3,7 @@
 (function () {
   'use strict';
   const OLH_API_KEY = 'olh_api';
-  const VAPID_PUBLIC_KEY = 'BHaQ7lwikVSe_sNormvDX2yvY2W2RItHmAzVfama0e5-rVTmNteVZ5f7HE2EmwpnE5ZYrHhfBdBYEjbze7F8L14';
+  const VAPID_PUBLIC_KEY = 'BAJMih2164bKcWWKt2o4rachc2Ggp4p8Oan9gCWvHqlB8O6PV70GerP-fgPsIkLgAAMyMQbVYodhFxR6xgtBrQU';
   const DEFAULT_API = 'https://ourlittlehome2.onrender.com';
   const CHANNEL = 'main';
 
