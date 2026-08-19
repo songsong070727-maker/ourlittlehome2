@@ -65,8 +65,8 @@
 1. 电脑上打开 https://vercel.com 登录 → **Add New → Project**
 2. 导入你的 GitHub 仓库（整个项目根目录）
 3. 部署前先改 `olh-cloud.js` 两处（用记事本/VS Code 打开）：
-   - **第7行** `VAPID_PUBLIC_KEY`：把 `【部署时替换成VAPID公钥】` 换成③生成的公钥
-   - **第9行** `DEFAULT_API`：改成 `'https://olh-backend.onrender.com'`（②抄的网址）
+     const VAPID_PUBLIC_KEY = 'BHaQ7lwikVSe_sNormvDX2yvY2W2RItHmAzVfama0e5-rVTmNteVZ5f7HE2EmwpnE5ZYrHhfBdBYEjbze7F8L14';
+     const DEFAULT_API = 'https://ourlittlehome2.onrender.com';
 4. 回到 Vercel → 改完再部署；部署成功后去 **Settings → Environment Variables** 加一行：
    ```
    OLH_BACKEND_URL = https://olh-backend.onrender.com（②的网址）
